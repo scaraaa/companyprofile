@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontak | Putri Ayu Salon</title>
+<meta name="description" content="Kontak, form pesan, FAQ, dan lokasi Putri Ayu Salon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../image/favicon.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="putri_inner">
+<div class="putri_aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="putri_progress" id="putri_progress"></div>
+
+<header class="putri_header" id="putri_header">
+  <a href="../index.html" class="putri_logo"><i class="putri_logo_img"><img src="../image/logo.png" alt="Logo Putri Ayu Salon"></i> <b>Putri Ayu <span>Salon</span></b></a>
+  <button class="putri_burger" id="putri_burger" aria-label="Menu"><i></i><i></i><i></i></button>
+  <nav class="putri_nav" id="putri_nav"><a href="../index.html" class="putri_link">Beranda</a><a href="tentang.html" class="putri_link">Tentang</a><a href="layanan.html" class="putri_link">Layanan</a><a href="paket.html" class="putri_link">Paket</a><a href="galeri.html" class="putri_link">Galeri</a><a href="keunggulan.html" class="putri_link">Keunggulan</a><a href="kontak.html" class="putri_link putri_on">Kontak</a></nav>
+</header>
+
+<section class="putri_banner">
+  <p class="putri_script">Contact Us</p>
+  <h1>Kontak</h1>
+  <p class="putri_crumb"><a href="../index.html">Beranda</a> / Kontak</p>
+</section>
+
+<section class="putri_section">
+  <div class="putri_contact">
+    <div class="putri_info putri_reveal">
+      <h3>Hubungi Kami</h3>
+      <p><svg class="putri_ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span><a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwig85DszveXAxUAAAAAHQAAAAAQBg..i&amp;udm&amp;fvr=1&amp;pvq=Cg0vZy8xMXA1ZndweGdrIhUKD3B1dHJpIGF5dSBzYWxvbhACGAM&amp;lqi=Cg9wdXRyaSBheXUgc2Fsb25I0ePr3ZW1gIAIWh0QABABEAIYABgBGAIiD3B1dHJpIGF5dSBzYWxvbpIBDGJlYXV0eV9zYWxvbg&amp;cs=1&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=id&amp;sa=X&amp;ftid=0x2e6f5930f588a283:0x6192963ed17b9737" target="_blank" rel="noopener">Lihat lokasi di Google Maps</a></span></p>
+      <p><svg class="putri_ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span><a href="tel:+6285283916015">085283916015</a></span></p>
+      <p><svg class="putri_ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span><a href="mailto:putriayusalon@gmail.com">putriayusalon@gmail.com</a></span></p>
+      <p><svg class="putri_ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Senin–Minggu, 09.00–20.00</span></p>
+      <a class="putri_wa" href="https://wa.me/6285283916015?text=Halo%20Putri%20Ayu%20Salon%2C%20saya%20ingin%20bertanya%20dan%20booking." target="_blank" rel="noopener"><svg class="putri_ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.3 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-.8.8a4 4 0 0 1-1.8-1.8l.8-.8-1-2z"/></svg> Tanya via WhatsApp</a>
+    </div>
+    <form class="putri_form putri_reveal" id="putri_form" novalidate>
+      <label>Nama Lengkap<input type="text" id="putri_nama" placeholder="Nama kamu"></label>
+      <label>Email<input type="email" id="putri_email" placeholder="email@contoh.com"></label>
+      <div class="putri_field"><span>Layanan / Paket</span>
+        <div class="putri_dd" id="putri_dd">
+          <input type="hidden" id="putri_pilih" value="">
+          <button type="button" class="putri_dd_btn" id="putri_dd_btn" aria-haspopup="listbox" aria-expanded="false"><span id="putri_dd_txt">-- Pilih layanan / paket --</span></button>
+          <div class="putri_dd_list" id="putri_dd_list" role="listbox"><div class="putri_dd_g">Rambut</div><button type="button" class="putri_dd_o" role="option" data-v="Cuci Rambut">Cuci Rambut</button><button type="button" class="putri_dd_o" role="option" data-v="Potong Rambut">Potong Rambut</button><button type="button" class="putri_dd_o" role="option" data-v="Creambath">Creambath</button><button type="button" class="putri_dd_o" role="option" data-v="Hair Spa">Hair Spa</button><button type="button" class="putri_dd_o" role="option" data-v="Hair Mask">Hair Mask</button><button type="button" class="putri_dd_o" role="option" data-v="Hair Coloring">Hair Coloring</button><button type="button" class="putri_dd_o" role="option" data-v="Smoothing">Smoothing</button><button type="button" class="putri_dd_o" role="option" data-v="Rebonding">Rebonding</button><button type="button" class="putri_dd_o" role="option" data-v="Blow Dry">Blow Dry</button><button type="button" class="putri_dd_o" role="option" data-v="Hair Styling">Hair Styling</button><button type="button" class="putri_dd_o" role="option" data-v="Hairdo">Hairdo</button><button type="button" class="putri_dd_o" role="option" data-v="Sanggul">Sanggul</button><div class="putri_dd_g">Wajah &amp; Kulit</div><button type="button" class="putri_dd_o" role="option" data-v="Facial">Facial</button><button type="button" class="putri_dd_o" role="option" data-v="Masker Wajah">Masker Wajah</button><button type="button" class="putri_dd_o" role="option" data-v="Scrub Wajah">Scrub Wajah</button><button type="button" class="putri_dd_o" role="option" data-v="Peeling Wajah">Peeling Wajah</button><button type="button" class="putri_dd_o" role="option" data-v="Face Massage">Face Massage</button><button type="button" class="putri_dd_o" role="option" data-v="PDT Treatment">PDT Treatment</button><div class="putri_dd_g">Makeup</div><button type="button" class="putri_dd_o" role="option" data-v="Makeup Natural">Makeup Natural</button><button type="button" class="putri_dd_o" role="option" data-v="Makeup Graduation">Makeup Graduation</button><button type="button" class="putri_dd_o" role="option" data-v="Makeup Wedding">Makeup Wedding</button><div class="putri_dd_g">Kuku</div><button type="button" class="putri_dd_o" role="option" data-v="Manicure">Manicure</button><button type="button" class="putri_dd_o" role="option" data-v="Pedicure">Pedicure</button><button type="button" class="putri_dd_o" role="option" data-v="Nail Art">Nail Art</button><div class="putri_dd_g">Paket</div><button type="button" class="putri_dd_o" role="option" data-v="Basic Glow">Basic Glow</button><button type="button" class="putri_dd_o" role="option" data-v="Beauty Care">Beauty Care</button><button type="button" class="putri_dd_o" role="option" data-v="Paket Custom">Paket Custom</button></div>
+        </div>
+      </div>
+      <label>Pesan untuk pemilik<textarea id="putri_pesan" rows="4" placeholder="Tulis pesan atau jadwal yang diinginkan"></textarea></label>
+      <p class="putri_msg" id="putri_msg"></p>
+      <button type="submit" class="putri_btn">Kirim Pesan</button>
+    </form>
+  </div>
+</section>
+
+<section class="putri_section putri_alt">
+  <p class="putri_script putri_center">FAQ</p>
+  <h2 class="putri_title putri_center">Pertanyaan Umum</h2>
+  <div class="putri_faq_wrap putri_faq"><div class="putri_faq_item"><button class="putri_q" type="button">Bagaimana cara booking?</button><div class="putri_a"><p>Hubungi kami lewat WhatsApp, sebutkan layanan dan jam yang kamu inginkan. Kami akan konfirmasi ketersediaan jadwalnya.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Apakah harus booking dulu atau bisa langsung datang?</button><div class="putri_a"><p>Boleh langsung datang, tetapi disarankan booking lebih awal supaya tidak menunggu lama, terutama akhir pekan.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Jam buka salon?</button><div class="putri_a"><p>Setiap hari Senin sampai Minggu, pukul 09.00 – 20.00.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Berapa lama durasi perawatan?</button><div class="putri_a"><p>Tergantung jenisnya. Creambath dan facial biasanya sekitar 1 jam, sedangkan smoothing, pewarnaan, dan makeup wedding bisa lebih lama.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Apakah produk yang dipakai aman?</button><div class="putri_a"><p>Ya, kami memakai produk yang aman dan terdaftar BPOM, serta menjaga kebersihan alat. Beri tahu kami jika kamu punya alergi.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Bisa membuat paket sendiri?</button><div class="putri_a"><p>Bisa. Pilih Paket Custom, lalu konsultasikan kombinasi perawatan yang kamu mau, harganya kami sesuaikan.</p></div></div><div class="putri_faq_item"><button class="putri_q" type="button">Untuk makeup wedding, kapan sebaiknya booking?</button><div class="putri_a"><p>Sebaiknya jauh-jauh hari sebelum acara agar ada waktu konsultasi dan mencoba riasan.</p></div></div></div>
+</section>
+
+<section class="putri_section">
+  <div class="putri_mapbox putri_reveal" style="margin-top:0">
+    <h3>Lokasi Kami</h3>
+    <iframe id="putri_map" src="https://maps.google.com/maps?cid=7030847164825442103&amp;hl=id&amp;z=16&amp;output=embed" title="Peta lokasi Putri Ayu Salon" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <a class="putri_btn" href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwig85DszveXAxUAAAAAHQAAAAAQBg..i&amp;udm&amp;fvr=1&amp;pvq=Cg0vZy8xMXA1ZndweGdrIhUKD3B1dHJpIGF5dSBzYWxvbhACGAM&amp;lqi=Cg9wdXRyaSBheXUgc2Fsb25I0ePr3ZW1gIAIWh0QABABEAIYABgBGAIiD3B1dHJpIGF5dSBzYWxvbpIBDGJlYXV0eV9zYWxvbg&amp;cs=1&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=id&amp;sa=X&amp;ftid=0x2e6f5930f588a283:0x6192963ed17b9737" target="_blank" rel="noopener">Buka di Google Maps</a>
+  </div>
+</section>
+
+<footer class="putri_footer">
+  <a href="../index.html" class="putri_logo"><i class="putri_logo_img"><img src="../image/logo.png" alt="Logo Putri Ayu Salon"></i> <b>Putri Ayu <span>Salon</span></b></a>
+  <p>Cantik Alami, Percaya Diri</p>
+  <div class="putri_foot_nav"><a href="../index.html">Beranda</a><a href="tentang.html">Tentang</a><a href="layanan.html">Layanan</a><a href="paket.html">Paket</a><a href="galeri.html">Galeri</a><a href="keunggulan.html">Keunggulan</a><a href="kontak.html">Kontak</a></div>
+  <small>© 2026 Putri Ayu Salon. All rights reserved.</small>
+</footer>
+<button class="putri_top" id="putri_top" aria-label="Ke atas">↑</button>
+<script src="../js/main.js"></script>
+<script src="../js/faq.js"></script>
+<script src="../js/kontak.js"></script>
+</body>
+</html>
